@@ -11,5 +11,5 @@ client = gspread.authorize(creds)
 sheet_id = "1jZUBYZOyxVjhYSwupIQZ7qqOAowyR6ZYhik6Bc8gY08"
 sheet = client.open_by_key(sheet_id)
 
-test_values = sheet.sheet1.row_values(1)
+sheet = sheet.sheet1.row_values(1)
 print(test_values)
