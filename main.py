@@ -12,4 +12,4 @@ sheet_id = "1jZUBYZOyxVjhYSwupIQZ7qqOAowyR6ZYhik6Bc8gY08"
 sheet = client.open_by_key(sheet_id)
 
 sheet = sheet.sheet1.row_values(1)
-print(test_values)
+print(sheet)
