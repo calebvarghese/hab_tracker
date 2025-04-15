@@ -5,3 +5,10 @@ This project is meant to scrape my google sheet and then serve that data to a dj
 ## Credentials
 
 Credentials are stored locally
+
+## Running
+
+Run 
+```
+uv run main.py
+```
